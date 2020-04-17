@@ -270,20 +270,21 @@ genre: Web Design,
 nationality: Your Nationality Here
 bio: Add 1-2 sentences (or use lorem ipsum) "*/
 
-function addArtist(/* Code here */){
-
-    /* Code here */
-
-  }
+const artist(id.name,years,genre,nationality,bio){
+addArtist.push()
+  id: 50
+'name''Tieirra', 
+'years' 1996-2020
+'genre' 'Web Design' ,
+'nationality' 'african american',
+'bio' 'use lorem ipsum',
+}
+console.log(addArtist);
 
 
 /* Task 8: Create a function called `checkArtist` that accepts a string (name of an artist) and checks if that artist is in the dataset. */
 
-function checkArtist(/* Code here */){
 
-    /* Code here */
-
-  }
 
 
 
