@@ -86,62 +86,84 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
-@font-size: 1.6rem;
-@media(max-width: 600px);
-@main-font:'Open Sans', sans-serif;
-
-
-
- header, .nav a {
-  width: 70%;
+.flexArtist {
+  display: flex;
+  flex-direction: row;
+}
+.flexBtn {
+  width: 40%;
+  background-color: whitesmoke;
+  text-align: center;
+}
+.flexHead {
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.brderAround {
+  border: black;
+}
+.flexTop {
   display: flex;
   flex-direction: center;
-  justify-content: space-between;
-  
- }
- .contact, .influence{
-display: flex;
-flex-direction: center;
-
- }
- .title-container, .influence{
-   width: 85%;
-   height:70%;
-   justify-content: center;
-   margin-top: 3%;
-   background-color: crimson;
-   margin-bottom: 10%;
-   .contact;
-   font-size: 50px;
-  
-   
-
- }
-
- section, .artist-container{
+}
+header,
+.navigation {
   display: flex;
- flex-direction: row;
- justify-content: space-between;
-
- .artist1{
-  font-size: @font-size;
-  width:45%;
-  justify-content: left;
-  margin-top: 20%;
-  
-
-.artist2{
-  font-size: @main-font;
-  width:45%;
-  justify-content: auto;
-   }
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.navigation {
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  border-right: 5px black;
+  text-decoration: none;
+}
+.title-container,
+.influence {
+  width: 85%;
+  height: 70%;
+  justify-content: center;
+  margin-top: 3%;
+  margin-bottom: 10%;
+  font-size: 50px;
+}
+.btn {
+  width: 40%;
+  background-color: whitesmoke;
+  text-align: center;
+  border: 3px black;
+}
+section,
+.artist-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+section .artist1,
+.artist-container .artist1 {
+  font-size: 1rem;
+  font: 'Open Sans', sans-serif;
+  margin: 2%;
+}
+.artist2 {
+  font-size: 1rem;
+  font: 'Open Sans', sans-serif;
+  margin: 2%;
+}
+@media (max-width: 600px) {
+  .artist1 {
+    display: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: hotpink;
+  }
+  .artist1 .artist1 {
+    font-size: 1rem;
+    font: 'Open Sans', sans-serif;
+    margin: 2%;
   }
 }
-@media(max-width: 600px){
- .artist1{
-   display:flex;
-   display:none;
-   .artist-container;
- }
-}
-   

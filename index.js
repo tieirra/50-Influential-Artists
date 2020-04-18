@@ -1,4 +1,4 @@
-const artists = [
+var artists = [
     {
       "id": 0,
       "name": "Amedeo Modigliani",
@@ -207,10 +207,18 @@ const artists = [
 
 (1) Name of the first artist in the array
 (2) Bio of the third artist in the array */
+ 
+//console.log(artists[0].name);
+//console.log(artists[4].bio);
 
 
 
 /* Task 2: There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is currently Vincent Van Dough. Use an array method to fix this issue and console.log() to check your work. */
+artists.pop(8);
+//console.log(artists);
+
+artists.push("Vincent Van Gogh");
+//console.log(artists);
 
 
 
@@ -222,8 +230,8 @@ const artists = [
  * For example, if getArtistByIndex is invoked with the inventory and the number 0,
  * it will return `The artist at index 0 is Amedeo Modigliani`.
 */
-function getCarInfoByIndex(inventory, index) {
-    /* code here */
+var getCarInfoByIndex(inventory, index) {
+    
   }
   
   /**
@@ -248,18 +256,17 @@ function getCarInfoByIndex(inventory, index) {
 
 function get20s(/* Code here */){
 
-    /* Code here */
+    return
 
   }
 
 /* Task 6: Create a function called lotsOfArt() that takes artists as an argument and returns an array with names of artists who painted more than 100 paintings */
 
-function lotsOfArt(/* Code here */){
-
+function lotsOfArt(){
+console.log();
     /* Code here */
-
   }
-
+lotsOfArt("artists");
 
 /* Task 7: Create a function called `addArtist` that can accept an array of information and add it to the artists array. Then, Add a 51st artist to the array (you) with custom information! 👩‍🎨👨‍🎨
 
@@ -270,22 +277,24 @@ genre: Web Design,
 nationality: Your Nationality Here
 bio: Add 1-2 sentences (or use lorem ipsum) "*/
 
-const artist(id.name,years,genre,nationality,bio){
-addArtist.push()
-  id: 50
-'name''Tieirra', 
-'years' 1996-2020
-'genre' 'Web Design' ,
-'nationality' 'african american',
-'bio' 'use lorem ipsum',
-}
-console.log(addArtist);
+var artists[] addArtist; 
+addArtist= new artist
+"id"; 20,
+'"name";"Tieirra" , 
+"years"; "1996 - 2020",
+"genre"; "Web Design" ,
+"nationality"; "african-american",
+"bio";"use lorem ipsum", 
 
+//console.log(addArtist);
 
 /* Task 8: Create a function called `checkArtist` that accepts a string (name of an artist) and checks if that artist is in the dataset. */
 
-
-
+//var artists(){
+ checkArtist= "Albrecht Dürer";
+return(checkArtist);
+//}
+//console.log(checkArtist);
 
 
 

@@ -20,160 +20,91 @@ time, mark, audio, video {
 }
 //reset ends//
 
-@navstyle:
-    font-color: black;
-    font-size: 2.0rem;
+
+ //styles begin//
+
+ @font-size: 1rem;
+
+ .flexArtist{
     display: flex;
-    justsify-content: center;
+   flex-direction: row;
+  
+}
+
+.flexBtn{
+    width:40%;
+    background-color:whitesmoke;
+    text-align: center;
+
+}
+.flexHead{
+    font-size: 30px;
+    display:flex;
+    flex-direction: row;  
+}
+.brderAround {
+ border:black
+ 
+}
+.flexTop{
+    display: flex;
+    flex-direction: center;
+    }
+ @media(max-width: 600px){};
  @main-font:'Open Sans', sans-serif;
- @media{max-width: 600px};
-
-
  //styles end//
-
- html,
- body,
- div,
- span,
- applet,
- object,
- iframe,
- h1,
- h2,
- h3,
- h4,
- h5,
- h6,
- p,
- blockquote,
- pre,
- a,
- abbr,
- acronym,
- address,
- big,
- cite,
- code,
- del,
- dfn,
- em,
- img,
- ins,
- kbd,
- q,
- s,
- samp,
- small,
- strike,
- strong,
- sub,
- sup,
- tt,
- var,
- b,
- u,
- i,
- center,
- dl,
- dt,
- dd,
- ol,
- ul,
- li,
- fieldset,
- form,
- label,
- legend,
- table,
- caption,
- tbody,
- tfoot,
- thead,
- tr,
- th,
- td,
- article,
- aside,
- canvas,
- details,
- embed,
- figure,
- figcaption,
- footer,
- header,
- hgroup,
- menu,
- nav,
- output,
- ruby,
- section,
- summary,
- time,
- mark,
- audio,
- video {
-   margin: 0;
-   padding: 0;
-   border: 0;
-   font-size: 100%;
-   font: inherit;
-   vertical-align: baseline;
- }
- @font-size: 1.6rem;
- @media(max-width: 600px);
- @main-font:'Open Sans', sans-serif;
  
- 
- 
- header, .nav a {
-   width: 45%;
-   font-family: @main-font;
-   display: flex;
-   flex-direction: center;
+ header, .navigation {
+     display:flex;
+     flex-direction: row;
+     width: 100%;
+     justify-content:space-evenly
+     text-decoration: none;
    
-  }
-  .contact{
+ }
  
- 
-  }
-  .title-container, .influence{
+ .navigation{
+ .flexHead();
+ border-right: 5px black;
+}
+
+.title-container, .influence{
     width: 85%;
     height:70%;
     justify-content: center;
     margin-top: 3%;
-    background-color: crimson;
     margin-bottom: 10%;
-    .contact;
-    font-size: 50px;
-   
-    
- 
+    font-size: 50px;  
+  }
+  .btn{
+      .flexBtn();
+      border: 3px black;
   }
  
   section, .artist-container{
-   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  .flexArtist();
+  justify-content: center;
  
   .artist1{
    font-size: @font-size;
-   width:45%;
-   justify-content: left;
-   margin-top: 20%;
+   font: @main-font;
+   margin:2%;
    
- 
- .artist2{
-   font-size: @main-font;
-   width:45%;
-   justify-content: auto;
-    }
    }
  }
+
+ .artist2{
+    font-size: @font-size;
+    font: @main-font;
+    margin:2%;
+ }
+
  @media(max-width: 600px){
   .artist1{
     display:flex;
     display:none;
     .artist-container;
+    background-color: hotpink;
   }
  }
     
