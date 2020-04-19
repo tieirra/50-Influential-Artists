@@ -214,8 +214,8 @@ var artists = [
 
 
 /* Task 2: There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is currently Vincent Van Dough. Use an array method to fix this issue and console.log() to check your work. */
-artists.pop(8);
-//console.log(artists);
+delete artists(8);
+console.log(8);
 
 artists.push("Vincent Van Gogh");
 //console.log(artists);
@@ -230,9 +230,12 @@ artists.push("Vincent Van Gogh");
  * For example, if getArtistByIndex is invoked with the inventory and the number 0,
  * it will return `The artist at index 0 is Amedeo Modigliani`.
 */
-var getCarInfoByIndex(inventory, index) {
+let getArtistByIndex = artistsArray('artists array',[7])
+  return 'artistsArray' [7];
+
+console.log(artists);
     
-  }
+  
   
   /**
 
@@ -245,28 +248,24 @@ var getCarInfoByIndex(inventory, index) {
  * For example, if removeArtist is invoked with the data and the number 0,
  * it will remove Amedeo Modigliani from our dataset.
 */
-function getCarInfoByIndex(inventory, index) {
+//function getCarInfoByIndex(inventory, index) {
     /* code here */
-  }
+  //
   
   /**
 
 
 /* Task 5: Create a function called get20s() that takes data as an argument and returns an array with names of artists who were born the 20th century (1800-1900) */
 
-function get20s(/* Code here */){
-
-    return
-
-  }
+function get20s(/* Code here */)
 
 /* Task 6: Create a function called lotsOfArt() that takes artists as an argument and returns an array with names of artists who painted more than 100 paintings */
 
-function lotsOfArt(){
-console.log();
+//function lotsOfArt(){
+//console.log();
     /* Code here */
-  }
-lotsOfArt("artists");
+ 
+//f5lotsOfArt("artists");
 
 /* Task 7: Create a function called `addArtist` that can accept an array of information and add it to the artists array. Then, Add a 51st artist to the array (you) with custom information! 👩‍🎨👨‍🎨
 
@@ -277,22 +276,22 @@ genre: Web Design,
 nationality: Your Nationality Here
 bio: Add 1-2 sentences (or use lorem ipsum) "*/
 
-var artists[] addArtist; 
-addArtist= new artist
-"id"; 20,
-'"name";"Tieirra" , 
-"years"; "1996 - 2020",
-"genre"; "Web Design" ,
-"nationality"; "african-american",
-"bio";"use lorem ipsum", 
+//var artists  addArtist; 
+//addArtist= new artist
+//"id"; 20,
+//"name";"Tieirra" , 
+//"years"; "1996 - 2020",
+//"genre"; "Web Design" ,
+//"nationality"; "african-american",
+//"bio";"use lorem ipsum", 
 
 //console.log(addArtist);
 
 /* Task 8: Create a function called `checkArtist` that accepts a string (name of an artist) and checks if that artist is in the dataset. */
 
 //var artists(){
- checkArtist= "Albrecht Dürer";
-return(checkArtist);
+// checkArtist= "Albrecht Dürer";
+//return(checkArtist);
 //}
 //console.log(checkArtist);
 
@@ -321,20 +320,20 @@ The function should console.log 50 chunks of HTML code that match the structure 
 
 ‼️ You do **NOT** need to get these to display on your page, but you can copy and paste the result into your HTML file if you'd like to see what that would look like. */
 
-function getHTML(/* Code here */){
+//function getHTML(/* Code here */){
 
     /* Code here */
 
-  }
+  
 
 
 /* STRETCH 2: Create a function called `randomize` that takes a data array as an argument and returns a the same array in a randomized order. */
 
-function randomize(/* Code here */){
+//function randomize(/* Code here */){
 
     /* Code here */
 
-  }
+  
 
 
- /* STRETCH 3: Use advanced array methods (.map, .reduce, .filer) to refactor your MVP code (create an array of all artists born in the 1900s with .filter, for example) */
+ /* STRETCH 3: Use advanced array methods (.map, .reduce, .filer) to refactor your MVP code (create an array of all artists born in the 1900s with .filter, for example} */

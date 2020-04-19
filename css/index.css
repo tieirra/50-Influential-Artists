@@ -92,7 +92,7 @@ video {
 }
 .flexBtn {
   width: 40%;
-  background-color: whitesmoke;
+  background-color: grey;
   text-align: center;
 }
 .flexHead {
@@ -119,7 +119,6 @@ header,
   display: flex;
   flex-direction: row;
   border-right: 5px black;
-  text-decoration: none;
 }
 .title-container,
 .influence {
@@ -132,7 +131,7 @@ header,
 }
 .btn {
   width: 40%;
-  background-color: whitesmoke;
+  background-color: grey;
   text-align: center;
   border: 3px black;
 }
@@ -152,6 +151,9 @@ section .artist1,
   font-size: 1rem;
   font: 'Open Sans', sans-serif;
   margin: 2%;
+}
+.img {
+  opacity: 0.6;
 }
 @media (max-width: 600px) {
   .artist1 {
