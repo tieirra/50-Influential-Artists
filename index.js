@@ -230,10 +230,10 @@ artists.push("Vincent Van Gogh");
  * For example, if getArtistByIndex is invoked with the inventory and the number 0,
  * it will return `The artist at index 0 is Amedeo Modigliani`.
 */
-let getArtistByIndex = artistsArray('artists array',[7])
-  return 'artistsArray' [7];
+let getArtistByIndex = artistsArray ('artists',[7])
+  return 'artistsArray', [7];
 
-console.log(artists);
+//console.log(getArtistbyIndex);
     
   
   
@@ -248,11 +248,9 @@ console.log(artists);
  * For example, if removeArtist is invoked with the data and the number 0,
  * it will remove Amedeo Modigliani from our dataset.
 */
-//function getCarInfoByIndex(inventory, index) {
-    /* code here */
-  //
-  
-  /**
+ function removeArtist ()
+  name: artistsArray
+  Index: [0]
 
 
 /* Task 5: Create a function called get20s() that takes data as an argument and returns an array with names of artists who were born the 20th century (1800-1900) */
