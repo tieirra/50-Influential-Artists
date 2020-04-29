@@ -1,4 +1,171 @@
-/* Font in design files is Raleway */
-
-/* background-image in Design 👇
- url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg/1920px-John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg'); */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.flexArtist {
+  display: flex;
+  flex-direction: row;
+}
+.flexBtn {
+  width: 40%;
+  background-color: grey;
+  text-align: center;
+}
+.flexHead {
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.brderAround {
+  border: black;
+}
+.flexTop {
+  display: flex;
+  flex-direction: center;
+}
+header,
+.navigation {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.navigation {
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  border-right: 5px black;
+}
+.title-container,
+.influence {
+  width: 85%;
+  height: 70%;
+  justify-content: center;
+  margin-top: 3%;
+  margin-bottom: 10%;
+  font-size: 50px;
+}
+.btn {
+  width: 40%;
+  background-color: grey;
+  text-align: center;
+  border: 3px black;
+}
+section,
+.artist-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+section .artist1,
+.artist-container .artist1 {
+  font-size: 1rem;
+  font: 'Open Sans', sans-serif;
+  margin: 2%;
+}
+.artist2 {
+  font-size: 1rem;
+  font: 'Open Sans', sans-serif;
+  margin: 2%;
+}
+.img {
+  opacity: 0.6;
+}
+@media (max-width: 600px) {
+  .artist1 {
+    display: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: hotpink;
+  }
+  .artist1 .artist1 {
+    font-size: 1rem;
+    font: 'Open Sans', sans-serif;
+    margin: 2%;
+  }
+}

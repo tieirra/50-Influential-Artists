@@ -29,6 +29,15 @@ Edit this document to include your answers after each question. Make sure to lea
 3. How would you explain the concept of a variable to someone new to programming?
 4. What is the purpose of using functions in code?
 5. What is a JSON data?
+//ANSWERS//
+*1 Processor is an advanced css and allows you to organize your code so much better and allow you to read it easily to have less code.
+
+*2 My favorite concept in processing is parametric Mixins , they are so cool how they work. I would say these gave me slight trouble at first until I got the gist of it.
+
+*3. A variable is defined as data and these variables can change. It can be numbers, names, objects.
+*4.  Used to avoid repetition of commands in coding. And makes code easier to maintain.
+*5. JavaScript Object Notation a syntax for storing and exchanging  data.
+
 
 You may need to look up an answer but, you are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
